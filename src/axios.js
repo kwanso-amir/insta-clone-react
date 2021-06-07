@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "https://instagram-clone-fe.herokuapp.com/",
+  baseURL: "https://insta-clone-be.herokuapp.com/",
 });
 
 export default instance;
